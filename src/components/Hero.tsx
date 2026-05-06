@@ -6,7 +6,7 @@ const reveal = {
   hidden: { y: "120%" },
   show: (i: number) => ({
     y: "0%",
-    transition: { duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 2.2 + i * 0.12 },
+    transition: { duration: 1.1, ease: [0.22, 1, 0.36, 1] as [number, number, number, number], delay: 2.2 + i * 0.12 },
   }),
 };
 
